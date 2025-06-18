@@ -33,8 +33,8 @@ c) Ping Ouster Lidar to determine connection
 ping 192.168.1.20
 ```
 ### 2. Run Ouster_SBG system
-**Config Options**
---mode: 
+**Config Options**\
+--mode:
 --start:
 --end:
 --viz:
