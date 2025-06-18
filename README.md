@@ -38,5 +38,5 @@ ping 192.168.1.20
 --end: Capture window end angle in millidegrees, 0-360000 (default: 360000\
 --viz: Use RViz2 to visualize Lidar data, True or False (default: False)\
 ```
-sudo ~/ros2_ws/run_Ouster_SBG.sh --mode '1024x20' --start '90000' --end '270000' --viz 'True'
+sudo ~/Ouster_SBG/run_Ouster_SBG.sh --mode '1024x20' --start '90000' --end '270000' --viz 'True'
 ```
