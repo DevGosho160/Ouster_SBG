@@ -16,5 +16,25 @@ cd ~/ros2_ws/src
 git clone
 cd ..
 ```
-### 4. Setup ethernet network for Ouster Lidar
-Hello
+## Usage
+### 1. Setup ethernet network for Ouster Lidar
+a) Determine IP address of the Lidar
+```
+sudo tcpdump -i eno1 -n
+```
+b) Setup network with an IP address on the same subnet as the Ouster Lidar
+```
+sudo ip addr flush dev eno1
+sudo ip addr add 192.168.1.10/24 dev eno1
+sudo ip link set eno1 up
+```
+c) Ping Ouster Lidar to determine connection
+```
+ping 192.168.1.20
+```
+### 2. Run Ouster_SBG system
+**Config Options**
+--mode: 
+--start:
+--end:
+--viz:
