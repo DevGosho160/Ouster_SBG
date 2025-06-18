@@ -11,10 +11,9 @@ sudo apt-get install libpcap-dev libopen3d-dev ros-humble-pcl-ros ros-humble-ame
 ```
 ### 3. Create a workspace source folder and clone this github repository
 ```
-mkdir ~/ros2_ws/src
-cd ~/ros2_ws/src
+cd ~
 git clone
-cd ..
+cd ~/Ouster_SBG
 ```
 ## Usage
 ### 1. Setup ethernet network for Ouster Lidar
