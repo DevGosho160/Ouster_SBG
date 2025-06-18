@@ -34,7 +34,8 @@ ping 192.168.1.20
 ```
 ### 2. Run Ouster_SBG system
 **Config Options**\
---mode:
---start:
---end:
---viz:
+--mode: Lidar capture resolution and refresh rate, 512x10, 512x20, 1024x10, 1024x20, 2048x10, 4096x5\
+--start: Capture window start angle in millidegrees, 0-360000\
+--end: Capture window end angle in millidegrees, 0-360000\
+--viz: Use RViz2 to visualize Lidar data, True or False\
+--file: Filepath for data storage, /home/imsel/data\
