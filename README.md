@@ -12,7 +12,7 @@ sudo apt-get install libpcap-dev libopen3d-dev ros-humble-pcl-ros ros-humble-ame
 ### 3. Create a workspace source folder and clone this github repository
 ```
 cd ~
-git clone
+git clone https://github.com/DevGosho160/Ouster_SBG
 cd ~/Ouster_SBG
 ```
 ## Usage
