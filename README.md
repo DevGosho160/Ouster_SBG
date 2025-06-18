@@ -16,4 +16,5 @@ cd ~/ros2_ws/src
 git clone
 cd ..
 ```
-4. 
+4. Setup ethernet network for Ouster Lidar
+Hello
