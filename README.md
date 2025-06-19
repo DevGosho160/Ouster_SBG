@@ -47,6 +47,7 @@ portName: Set to the serial port the INS is using
 ### Ouster Lidar
 Open config file: /home/imsel/Ouster_SBG/src/ouster-ros/ouster-ros/config/driver_params.yaml\
 sensor_hostname: set to the hostname of the Ouster lidar, 'os-{Serial_Number}.local' 'os-122423000060.local'\
+</br>
 To setup Ouster Lidar manually to accept an NMEA RMC sentence from the SBG INS:
 1. Navigate to http://os-{Serial_Number}.local (http://os-122423000060.local)
 2. Navigate to the configuration tab
